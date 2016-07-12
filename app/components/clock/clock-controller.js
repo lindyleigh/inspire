@@ -49,7 +49,9 @@ function changeGreeting() {
             <h1 style="font-size: 70">Good Evening</h1>
             `)
     } else {
-        alert('Don\'t disturb me at this lately hour');
+        $('.greeting-header').append(`
+            <h1 style="font-size: 70">It's Really Late</h1>
+            `)
     }
 }
 

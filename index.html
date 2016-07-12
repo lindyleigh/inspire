@@ -3,21 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Inspire</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 </head>
 
-<body id="body">
-	<div id="weather">
-
+<body id="image">
+	<div class=" clock">
+		<div class="greeting-header">
+		</div>
+		<div id="Date"></div>
+		<ul class="clock-list">
+			<li id="hours"></li>
+			<li id="point">:</li>
+			<li id="min"></li>
+			<li id="point">:</li>
+			<li id="sec"></li>
+		</ul>
 	</div>
 
-	<div id="quote">
 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" id="weather">
+
+			</div>
+
+			<div class="col-md-4" id="quote">
+
+			</div>
+
+			<div class="col-md-4" id="todo">
+				<form class="todo-form">
+					<div>
+						<h3 style="text-align: center">To Do</h3>
+						<label for="task"></label>
+						<input type="text" class="form-control" id="toDoInput" placeholder="New Task">
+					</div>
+					<button type="submit" class="btn">Add Task</button>
+				</form>
+				<ul class="todo-list">
+
+				</ul>
+				<button type="button" class="btn clear-tasks">Clear</button>
+			</div>
+
+		</div>
 	</div>
 
-	<div id="todo">
-
-	</div>
 
 
 
@@ -34,6 +66,7 @@
 	<script src="app/components/image/image-controller.js"></script>
 	<script src="app/components/quote/quote-controller.js"></script>
 	<script src="app/components/todo/todo-controller.js"></script>
+	<script src="app/components/clock/clock-controller.js"></script>
 
 </body>
 

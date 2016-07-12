@@ -10,11 +10,11 @@
 			<p>${res.quote}</p>
 			<p id="author">${res.author}</p>
 		`)
-		// $('#author').hide('fast')
+		$('#author').hide('fast')
 
 		
 		$('#quote').on('mouseenter', function() {
-			// $('#author').show('fast')
+			$('#author').show('fast')
 			$('#quote').empty();
 			$('#quote').append(`
 			<h2>Quote of the Day</h2>
@@ -23,7 +23,7 @@
 		})
 
 		$('#quote').on('mouseleave', function() {
-			// $('#author').hide('fast')
+			$('#author').hide('fast')
 			$('#quote').empty();
 			$('#quote').append(`
 			<h2>Quote of the Day</h2>

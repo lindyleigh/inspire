@@ -6,6 +6,13 @@
 	weatherService.getWeather(function (weather) {
 		console.log(weather);
 
+		// $('#weather').toggle(
+		// 	function()
+		// )
+
+
+
+
 
 		$('#weather').append(`
 			<h2>Weather</h2>
@@ -15,7 +22,6 @@
 		`)
 
 		$('#weather').on('click', function() {
-			// $('#author').hide('fast')
 			$('#weather').empty();
 			$('#weather').append(`
 			<h2>Weather</h2>

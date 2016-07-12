@@ -102,6 +102,7 @@
     margin-left: 70px;
     margin-top: 20px;
     background-color:rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px #00c6ff;
 }
 
 #todo {
@@ -111,6 +112,7 @@
     margin-left: 70px;
     margin-top: 20px;
     background-color:rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px #00c6ff;
 }
 
 .form-control {
@@ -119,6 +121,7 @@
 
 .btn {
     background-color: gray;
+    border: 2px solid black;
 }
 
 

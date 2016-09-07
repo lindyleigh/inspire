@@ -14,7 +14,7 @@ function WeatherService() {
 
 		$.get(apiUrl, function (res) {
 			localStorage.setItem('weather', JSON.stringify(res))
-			callWhenDone(res);
+			callWhenDone(JSON.parse(res));
 		})
 	}
 }

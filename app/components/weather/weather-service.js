@@ -13,7 +13,7 @@ function WeatherService() {
 		}
 
 		$.get(apiUrl, function (res) {
-			localStorage.setItem('weather', JSON.stringify(res))
+			localStorage.setItem('weather', res)
 			callWhenDone(JSON.parse(res));
 		})
 	}

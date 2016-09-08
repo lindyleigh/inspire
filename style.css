@@ -86,6 +86,7 @@
 
 #weather, #quote, #todo {
     outline: 5px solid white;
+    width: 300px;
     height: 350px;
     text-align: center;
     margin: 20px;

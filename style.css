@@ -84,21 +84,11 @@
     };
 }
 
-#weather, #quote {
+#weather, #quote, #todo {
     outline: 5px solid white;
     height: 350px;
     /*width: 300px;*/
     text-align: center;
-    /*margin-left: 70px;*/
-    margin-top: 20px;
-    background-color:rgba(0, 0, 0, 0.5);
-    text-shadow: 0 0 5px #00c6ff;
-}
-
-#todo {
-    outline: 5px solid white;
-    height: 350px;
-    /*width: 300px;*/
     /*margin-left: 70px;*/
     margin-top: 20px;
     background-color:rgba(0, 0, 0, 0.5);

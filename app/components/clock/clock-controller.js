@@ -36,7 +36,7 @@ setInterval( function() {
 function changeGreeting() {
     var date = new Date();
     var hours = date.getHours();
-    if (hours >= 8 && hours < 12) {
+    if (hours >= 5 && hours < 12) {
         $('.greeting-header').append(`
             <h1>Good Morning</h1>
             `)

@@ -88,7 +88,7 @@
     outline: 5px solid white;
     height: 350px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
     background-color:rgba(0, 0, 0, 0.5);
     text-shadow: 0 0 5px #00c6ff;
 }

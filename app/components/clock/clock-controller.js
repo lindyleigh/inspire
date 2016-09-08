@@ -36,15 +36,15 @@ setInterval( function() {
 function changeGreeting() {
     var date = new Date();
     var hours = date.getHours();
-    if (hours >= 8 && hours < 13) {
+    if (hours >= 8 && hours < 12) {
         $('.greeting-header').append(`
             <h1>Good Morning</h1>
             `)
-    } else if (hours >= 13 && hours < 18) {
+    } else if (hours >= 12 && hours < 18) {
          $('.greeting-header').append(`
             <h1 style="font-size: 70">Good Afternoon</h1>
             `)
-    } else if (hours > 18 && hours <= 23) {
+    } else if (hours >= 18 && hours <= 23) {
          $('.greeting-header').append(`
             <h1 style="font-size: 70">Good Evening</h1>
             `)

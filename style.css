@@ -103,8 +103,8 @@ h1 span {
     margin-bottom: 10px;
 }
 
-ul {
-    text-decoration: none;
+li {
+    list-style-type: none;
 }
 
 .btn {

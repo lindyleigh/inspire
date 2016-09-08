@@ -107,8 +107,7 @@ li {
     list-style-type: none;
 }
 
-.todo-list {
-    text-align: center;
+ul {
     padding-left: 0;
 }
 

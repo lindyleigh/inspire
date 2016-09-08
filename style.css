@@ -89,7 +89,7 @@
 }
 
 #weather, #quote {
-    border: 5px solid white;
+    outline: 5px solid white;
     height: 350px;
     /*width: 300px;*/
     text-align: center;
@@ -100,7 +100,7 @@
 }
 
 #todo {
-    border: 5px solid white;
+    outline: 5px solid white;
     height: 350px;
     /*width: 300px;*/
     /*margin-left: 70px;*/

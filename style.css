@@ -103,8 +103,8 @@ h1 span {
     margin-bottom: 10px;
 }
 
-.todo-list, h4 {
-    text-align: center;
+ul {
+    text-decoration: none;
 }
 
 .btn {
